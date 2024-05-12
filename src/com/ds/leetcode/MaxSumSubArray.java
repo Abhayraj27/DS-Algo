@@ -3,6 +3,8 @@ package com.ds.leetcode;
 public class MaxSumSubArray {
 
 	public static int findMaxSumSubarray(int arr[], int k) {
+		
+		// K= 3 is subArray size.
 
 		int maxValue = Integer.MIN_VALUE;
 		int currentRunningSum = 0;
